@@ -73,6 +73,26 @@ namespace collegemanagemantsystem181021.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Feb_Business_9 {
+            get {
+                object obj = ResourceManager.GetObject("Feb-Business_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kimberly_farmer_lUaaKCUANVI_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("kimberly-farmer-lUaaKCUANVI-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mobile_login {
             get {
                 object obj = ResourceManager.GetObject("Mobile-login", resourceCulture);

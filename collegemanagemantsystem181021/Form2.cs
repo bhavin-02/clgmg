@@ -25,7 +25,7 @@ namespace collegemanagemantsystem181021
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string sql = "select * from login where Username='" + textBox1.Text + "' and password='" + textBox2.Text + "'";
+            string sql = "select * from login where email='" + textBox1.Text + "' and password='" + textBox2.Text + "'";
             SqlDataAdapter da = new SqlDataAdapter(sql, Class1.cn);
             DataTable dt = new DataTable();
             int a = da.Fill(dt);

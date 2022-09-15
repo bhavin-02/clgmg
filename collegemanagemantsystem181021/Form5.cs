@@ -85,10 +85,7 @@ namespace collegemanagemantsystem181021
         {
             if (keyData == Keys.Escape)
             {
-                Form2 f2 = new Form2();
-                this.Hide();
-                f2.Show();
-               
+                Application.Exit();               
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }

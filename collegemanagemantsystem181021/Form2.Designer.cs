@@ -65,7 +65,7 @@
             this.button2.Location = new System.Drawing.Point(12, 255);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(259, 25);
-            this.button2.TabIndex = 12;
+            this.button2.TabIndex = 3;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -150,7 +150,7 @@
             this.textBox1.Location = new System.Drawing.Point(12, 104);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(259, 20);
-            this.textBox1.TabIndex = 18;
+            this.textBox1.TabIndex = 1;
             this.textBox1.Text = "email";
             // 
             // textBox2
@@ -162,7 +162,7 @@
             this.textBox2.Location = new System.Drawing.Point(12, 165);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(259, 22);
-            this.textBox2.TabIndex = 19;
+            this.textBox2.TabIndex = 2;
             this.textBox2.Text = "password";
             this.textBox2.UseSystemPasswordChar = true;
             // 

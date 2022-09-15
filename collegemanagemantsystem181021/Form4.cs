@@ -20,47 +20,52 @@ namespace collegemanagemantsystem181021
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text == textBox3.Text)
+            SqlDataAdapter sas = new SqlDataAdapter("select * from login where email='" + textBox1.Text + "'", Class1.cn);
+            DataTable dts = new DataTable();
+            int a = sas.Fill(dts);
+            if (a > 0)
             {
-                string sql = "update login set password='" + textBox2.Text + "' where username='" + textBox1.Text + "'";
+                string sql = "update login set password='" + textBox2.Text + "' where email='" + textBox1.Text + "'";
                 SqlDataAdapter da = new SqlDataAdapter(sql, Class1.cn);
                 DataTable dt = new DataTable();
-                int a = da.Fill(dt);
-
-                MessageBox.Show("your password succcessfully updated.");
-
-                Form2 f2 = new Form2();
-                this.Hide();
-                f2.Show();
+                int b = da.Fill(dt);
+                if (b == 0)
+                {
+                    MessageBox.Show("Successfully reset your password.", "Information", MessageBoxButtons.OK);
+                    Form2 f2 = new Form2();
+                    this.Hide();
+                    f2.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Something went wrong.");
+                }
             }
             else
             {
-                MessageBox.Show("please enter same password.");
+                MessageBox.Show("Email doesn't exist.", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
         }
 
         private void Form4_Load(object sender, EventArgs e)
         {
              
         }
+
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Escape)
             {
-                Application.Exit();
+                Form2 f2 = new Form2();
+                this.Hide();
+                f2.Show();
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void Form4_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Form3 f3 = new Form3();
-            this.Hide();
-            f3.Hide();
+            Application.Exit();
         }
-
-       
     }
 }
