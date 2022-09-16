@@ -16,31 +16,28 @@ namespace collegemanagemantsystem181021
             InitializeComponent();
         }
 
-        private void admission1_Click(object sender, EventArgs e)
+        private void admission_Click(object sender, EventArgs e)
         {
             Form6 F6 = new Form6();
             this.Hide();
             F6.Show();
-            
         }
 
-        private void upgradeaddmision2_Click(object sender, EventArgs e)
+        private void upgradeaddmision_Click(object sender, EventArgs e)
         {
             Form7 f7 = new Form7();
             this.Hide();
             f7.Show();
         }
 
-        private void fees3_Click(object sender, EventArgs e)
+        private void fees_Click(object sender, EventArgs e)
         {
             Form8 f8 = new Form8();
             this.Hide();
             f8.Show();
         }
 
-        
-
-        private void button5_Click(object sender, EventArgs e)
+        private void indivisualstudent_Click(object sender, EventArgs e)
         {
             Form10 f10 = new Form10();
             this.Hide();
@@ -52,9 +49,7 @@ namespace collegemanagemantsystem181021
             Form11 f11 = new Form11();
             this.Hide();
             f11.Show();
-        }
-
-      
+        }      
 
         private void SearchTeacher_Click(object sender, EventArgs e)
         {
@@ -70,17 +65,18 @@ namespace collegemanagemantsystem181021
             f13.Show();
         }
 
-        private void about9_Click(object sender, EventArgs e)
+        private void about_Click(object sender, EventArgs e)
         {
             Form14 f14 = new Form14();
             this.Hide();
             f14.Show();
         }
 
-        private void logout10_Click(object sender, EventArgs e)
+        private void logout_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.Escape)
@@ -90,15 +86,11 @@ namespace collegemanagemantsystem181021
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
-       
-
-        private void label5_Click(object sender, EventArgs e)
+        private void label_Click(object sender, EventArgs e)
         {
             Form4 f4 = new Form4();
             this.Hide();
             f4.Show();
-        }
-
-       
+        }  
     }
 }
