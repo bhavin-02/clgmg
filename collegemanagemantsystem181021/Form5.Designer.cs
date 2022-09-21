@@ -31,8 +31,8 @@
             this.admission = new System.Windows.Forms.Button();
             this.upgradeaddmision = new System.Windows.Forms.Button();
             this.fees = new System.Windows.Forms.Button();
-            this.indivisualstudent = new System.Windows.Forms.Button();
-            this.Teacher = new System.Windows.Forms.Button();
+            this.individualstudent = new System.Windows.Forms.Button();
+            this.addteacher = new System.Windows.Forms.Button();
             this.SearchTeacher = new System.Windows.Forms.Button();
             this.removestudent = new System.Windows.Forms.Button();
             this.about9 = new System.Windows.Forms.Button();
@@ -47,7 +47,7 @@
             // admission
             // 
             this.admission.BackColor = System.Drawing.Color.RoyalBlue;
-            this.admission.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.admission.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.admission.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.admission.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.admission.Location = new System.Drawing.Point(721, 13);
@@ -61,7 +61,7 @@
             // upgradeaddmision
             // 
             this.upgradeaddmision.BackColor = System.Drawing.Color.RoyalBlue;
-            this.upgradeaddmision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.upgradeaddmision.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.upgradeaddmision.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.upgradeaddmision.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.upgradeaddmision.Location = new System.Drawing.Point(721, 65);
@@ -75,7 +75,7 @@
             // fees
             // 
             this.fees.BackColor = System.Drawing.Color.RoyalBlue;
-            this.fees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fees.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.fees.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fees.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.fees.Location = new System.Drawing.Point(721, 117);
@@ -86,38 +86,38 @@
             this.fees.UseVisualStyleBackColor = false;
             this.fees.Click += new System.EventHandler(this.fees_Click);
             // 
-            // indivisualstudent
+            // individualstudent
             // 
-            this.indivisualstudent.BackColor = System.Drawing.Color.RoyalBlue;
-            this.indivisualstudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.indivisualstudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.indivisualstudent.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.indivisualstudent.Location = new System.Drawing.Point(721, 169);
-            this.indivisualstudent.Name = "indivisualstudent";
-            this.indivisualstudent.Size = new System.Drawing.Size(177, 28);
-            this.indivisualstudent.TabIndex = 5;
-            this.indivisualstudent.Text = "Individual Student";
-            this.indivisualstudent.UseVisualStyleBackColor = false;
-            this.indivisualstudent.Click += new System.EventHandler(this.indivisualstudent_Click);
+            this.individualstudent.BackColor = System.Drawing.Color.RoyalBlue;
+            this.individualstudent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.individualstudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.individualstudent.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.individualstudent.Location = new System.Drawing.Point(721, 169);
+            this.individualstudent.Name = "individualstudent";
+            this.individualstudent.Size = new System.Drawing.Size(177, 28);
+            this.individualstudent.TabIndex = 5;
+            this.individualstudent.Text = "Individual Student";
+            this.individualstudent.UseVisualStyleBackColor = false;
+            this.individualstudent.Click += new System.EventHandler(this.individualstudent_Click);
             // 
-            // Teacher
+            // addteacher
             // 
-            this.Teacher.BackColor = System.Drawing.Color.RoyalBlue;
-            this.Teacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Teacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Teacher.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Teacher.Location = new System.Drawing.Point(721, 221);
-            this.Teacher.Name = "Teacher";
-            this.Teacher.Size = new System.Drawing.Size(177, 28);
-            this.Teacher.TabIndex = 6;
-            this.Teacher.Text = "Add Teacher";
-            this.Teacher.UseVisualStyleBackColor = false;
-            this.Teacher.Click += new System.EventHandler(this.Teacher_Click);
+            this.addteacher.BackColor = System.Drawing.Color.RoyalBlue;
+            this.addteacher.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addteacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addteacher.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.addteacher.Location = new System.Drawing.Point(721, 221);
+            this.addteacher.Name = "addteacher";
+            this.addteacher.Size = new System.Drawing.Size(177, 28);
+            this.addteacher.TabIndex = 6;
+            this.addteacher.Text = "Add Teacher";
+            this.addteacher.UseVisualStyleBackColor = false;
+            this.addteacher.Click += new System.EventHandler(this.teacher_Click);
             // 
             // SearchTeacher
             // 
             this.SearchTeacher.BackColor = System.Drawing.Color.RoyalBlue;
-            this.SearchTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SearchTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SearchTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchTeacher.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.SearchTeacher.Location = new System.Drawing.Point(721, 273);
@@ -131,7 +131,7 @@
             // removestudent
             // 
             this.removestudent.BackColor = System.Drawing.Color.RoyalBlue;
-            this.removestudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.removestudent.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.removestudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.removestudent.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.removestudent.Location = new System.Drawing.Point(721, 325);
@@ -145,7 +145,7 @@
             // about9
             // 
             this.about9.BackColor = System.Drawing.Color.RoyalBlue;
-            this.about9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.about9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.about9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.about9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.about9.Location = new System.Drawing.Point(721, 377);
@@ -198,9 +198,9 @@
             this.panel2.Controls.Add(this.upgradeaddmision);
             this.panel2.Controls.Add(this.fees);
             this.panel2.Controls.Add(this.logout);
-            this.panel2.Controls.Add(this.indivisualstudent);
+            this.panel2.Controls.Add(this.individualstudent);
             this.panel2.Controls.Add(this.about9);
-            this.panel2.Controls.Add(this.Teacher);
+            this.panel2.Controls.Add(this.addteacher);
             this.panel2.Controls.Add(this.removestudent);
             this.panel2.Controls.Add(this.SearchTeacher);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -234,8 +234,8 @@
         private System.Windows.Forms.Button admission;
         private System.Windows.Forms.Button upgradeaddmision;
         private System.Windows.Forms.Button fees;
-        private System.Windows.Forms.Button indivisualstudent;
-        private System.Windows.Forms.Button Teacher;
+        private System.Windows.Forms.Button individualstudent;
+        private System.Windows.Forms.Button addteacher;
         private System.Windows.Forms.Button SearchTeacher;
         private System.Windows.Forms.Button removestudent;
         private System.Windows.Forms.Button about9;

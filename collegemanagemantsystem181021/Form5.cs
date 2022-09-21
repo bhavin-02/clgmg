@@ -37,14 +37,14 @@ namespace collegemanagemantsystem181021
             f8.Show();
         }
 
-        private void indivisualstudent_Click(object sender, EventArgs e)
+        private void individualstudent_Click(object sender, EventArgs e)
         {
             Form10 f10 = new Form10();
             this.Hide();
             f10.Show();
         }
 
-        private void Teacher_Click(object sender, EventArgs e)
+        private void teacher_Click(object sender, EventArgs e)
         {
             Form11 f11 = new Form11();
             this.Hide();
