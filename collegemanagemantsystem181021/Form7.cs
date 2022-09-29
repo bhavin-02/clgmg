@@ -89,6 +89,11 @@ namespace collegemanagemantsystem181021
             }
         }
 
+        private void lbl_heading_Click(object sender, EventArgs e)
+        {
+
+        }
+
       
         }
 

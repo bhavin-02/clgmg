@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -39,6 +38,9 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lbl_heading = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -66,9 +68,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(73, 226);
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(297, 260);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 16);
             this.label3.TabIndex = 2;
@@ -77,9 +80,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(73, 283);
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(297, 317);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 16);
             this.label4.TabIndex = 3;
@@ -87,8 +91,8 @@
             // 
             // comboBox2
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.InfoText;
-            this.comboBox2.ForeColor = System.Drawing.Color.White;
+            this.comboBox2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.comboBox2.ForeColor = System.Drawing.Color.Black;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "BCA SEM-1",
@@ -111,7 +115,7 @@
             "B.COM SEM-4",
             "B.COM SEM-5",
             "B.COM SEM-6"});
-            this.comboBox2.Location = new System.Drawing.Point(171, 282);
+            this.comboBox2.Location = new System.Drawing.Point(395, 316);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(113, 21);
             this.comboBox2.TabIndex = 5;
@@ -119,10 +123,10 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(132, 360);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(356, 394);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 29);
             this.button1.TabIndex = 6;
@@ -132,8 +136,8 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.InfoText;
-            this.comboBox1.ForeColor = System.Drawing.Color.White;
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.comboBox1.ForeColor = System.Drawing.Color.Black;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "BCA SEM-1",
@@ -156,7 +160,7 @@
             "B.COM SEM-4",
             "B.COM SEM-5",
             "B.COM SEM-6"});
-            this.comboBox1.Location = new System.Drawing.Point(171, 226);
+            this.comboBox1.Location = new System.Drawing.Point(395, 260);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(113, 21);
             this.comboBox1.TabIndex = 7;
@@ -178,9 +182,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(70, 174);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(294, 208);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(137, 18);
             this.label5.TabIndex = 32;
@@ -188,23 +193,45 @@
             // 
             // comboBox3
             // 
-            this.comboBox3.BackColor = System.Drawing.SystemColors.InfoText;
-            this.comboBox3.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.comboBox3.ForeColor = System.Drawing.Color.Black;
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(222, 175);
+            this.comboBox3.Location = new System.Drawing.Point(446, 209);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
             this.comboBox3.TabIndex = 33;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panel1.Controls.Add(this.lbl_heading);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(894, 80);
+            this.panel1.TabIndex = 36;
+            // 
+            // lbl_heading
+            // 
+            this.lbl_heading.AutoSize = true;
+            this.lbl_heading.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_heading.ForeColor = System.Drawing.Color.White;
+            this.lbl_heading.Location = new System.Drawing.Point(311, 21);
+            this.lbl_heading.Name = "lbl_heading";
+            this.lbl_heading.Size = new System.Drawing.Size(244, 31);
+            this.lbl_heading.TabIndex = 1;
+            this.lbl_heading.Text = "Upgrade Admission";
+            this.lbl_heading.Click += new System.EventHandler(this.lbl_heading_Click);
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(894, 516);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label13);
@@ -220,6 +247,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form7";
             this.Load += new System.EventHandler(this.Form7_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,5 +266,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lbl_heading;
     }
 }

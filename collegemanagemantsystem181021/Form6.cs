@@ -112,6 +112,11 @@ namespace collegemanagemantsystem181021
             string filenm = open.SafeFileName;
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
         }
 
         
