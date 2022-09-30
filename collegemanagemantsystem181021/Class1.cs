@@ -10,6 +10,6 @@ namespace collegemanagemantsystem181021
 {
     class Class1
     {
-        public static SqlConnection cn = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True");
+        public static SqlConnection cn = new SqlConnection(@"Data Source=.\SQLEXPRESS;AttachDbFilename=C:\lucku1\clgmg\collegemanagemantsystem181021\bin\Debug\Database1.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True");
     }
 }

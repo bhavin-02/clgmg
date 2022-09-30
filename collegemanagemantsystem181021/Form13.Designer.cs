@@ -56,8 +56,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(304, 140);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -67,8 +67,8 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(389, 202);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 32);
@@ -79,7 +79,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.Location = new System.Drawing.Point(164, 298);
@@ -103,8 +103,8 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.InfoText;
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.Menu;
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(434, 137);
             this.comboBox1.Name = "comboBox1";

@@ -49,12 +49,7 @@ namespace collegemanagemantsystem181021
             f4.Show();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-            Form3 f3 = new Form3();
-            this.Hide();
-            f3.Show();
-        }
+        
 
         bool show = true;
         private void show_hide_password_Click(object sender, EventArgs e)
